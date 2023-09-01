@@ -1,0 +1,18 @@
+INSERT INTO books (title, author, isbn, copies) VALUES ('МАСТЕР И МАРГАРИТА', 'БУЛГАКОВ', '111', 100);
+INSERT INTO books (title, author, isbn, copies) VALUES ('МОРФИЙ', 'БУЛГАКОВ', '222', 100);
+INSERT INTO books (title, author, isbn, copies) VALUES ('ЗЕЛЕНАЯ МИЛЯ', 'КИНГ', '333', 100);
+INSERT INTO books (title, author, isbn, copies) VALUES ('ЛОШАДИНАЯ ФАМИЛИЯ', 'ЧЕХОВ', '444', 100);
+INSERT INTO books (title, author, isbn, copies) VALUES ('ДОКТОР ЖИВАГО', 'ПАСТЕРНАК', '555', 100);
+INSERT INTO books (title, author, isbn, copies) VALUES ('КАПИТАНСКАЯ ДОЧКА', 'ПУШКИН', '666', 100);
+INSERT INTO books (title, author, isbn, copies) VALUES ('ЕВГЕНИЙ ОНЕГИН', 'ПУШКИН', '777', 100);
+INSERT INTO books (title, author, isbn, copies) VALUES ('СКАЗКА О ПОПЕ И ЕГО РАБОТНИКЕ БАЛДЕ', 'ПУШКИН', '888', 100);
+INSERT INTO books (title, author, isbn, copies) VALUES ('СКАЗКА О РЫБАКЕ И РЫБКЕ', 'ПУШКИН', '999', 100);
+INSERT INTO books (title, author, isbn, copies) VALUES ('МЕРТВЫЕ ДУШИ', 'ГОГОЛЬ', '1111', 100);
+INSERT INTO books (title, author, isbn, copies) VALUES ('РЕВИЗОР', 'ГОГОЛЬ', '2222', 100);
+INSERT INTO books (title, author, isbn, copies) VALUES ('ПРИЗРАКИ', 'ПАЛАНИК', '3333', 100);
+INSERT INTO books (title, author, isbn, copies) VALUES ('БОЙЦОВСКИЙ КЛУБ', 'ПАЛАНИК', '4444', 100);
+INSERT INTO books (title, author, isbn, copies) VALUES ('НЕВИДИМКИ', 'ПАЛАНИК', '5555', 100);
+INSERT INTO books (title, author, isbn, copies) VALUES ('ВИШНЕВЫЙ САД', 'ЧЕХОВ', '6666', 100);
+INSERT INTO books (title, author, isbn, copies) VALUES ('МЕТАФИЗИКА', 'АРИСТОТЕЛЬ', '7777', 100);
+INSERT INTO books (title, author, isbn, copies) VALUES ('ОРГАНОН', 'АРИСТОТЕЛЬ', '8888', 100);
+INSERT INTO books (title, author, isbn, copies) VALUES ('ИГРА ДЖЕРАЛДА', 'КИНГ', '9999', 100);
