@@ -1,0 +1,30 @@
+syntax = "proto3";
+package org.matveev.librarymanagementuserservice.proto;
+option java_multiple_files = true;
+
+import "google/protobuf/empty.proto";
+
+service LibraryManagementUserService {
+    rpc register(RegisterRequest) returns (google.protobuf.Empty);
+    rpc delete(DeleteRequest) returns (google.protobuf.Empty);
+    rpc update(UpdateRequest) returns (google.protobuf.Empty);
+}
+
+message RegisterRequest {
+    User user = 1;
+}
+
+message DeleteRequest {
+    int64 id = 1;
+}
+
+message UpdateRequest {
+    User user = 1;
+}
+
+message User {
+    string name = 1;
+    string email = 2;
+    string password_hash = 3;
+    string date_joined = 4;
+}

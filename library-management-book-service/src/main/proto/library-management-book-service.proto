@@ -1,0 +1,59 @@
+syntax = "proto3";
+package org.matveev.librarymanagementbookservice.proto;
+option java_multiple_files = true;
+
+import "google/protobuf/empty.proto";
+
+service LibraryManagementBookService {
+    rpc add(AddRequest) returns (google.protobuf.Empty);
+    rpc delete(DeleteRequest) returns (google.protobuf.Empty);
+    rpc update(UpdateRequest) returns (google.protobuf.Empty);
+    rpc get(GetRequest) returns (GetResponse);
+    rpc search(SearchRequest) returns (SearchResponse);
+}
+
+message AddRequest {
+    Book book = 1;
+}
+
+message DeleteRequest {
+    int64 id = 1;
+}
+
+message UpdateRequest {
+    Book book = 1;
+}
+
+message GetRequest {
+    int64 id = 1;
+}
+
+message GetResponse {
+    int64 id = 1;
+    string title = 2;
+    string author = 3;
+    string isbn = 4;
+    int32 copies = 5;
+}
+
+message SearchRequest {
+    string query = 1;
+    SearchType searchType = 2;
+}
+
+message SearchResponse {
+    repeated Book books = 1;
+}
+
+message Book {
+    string title = 1;
+    string author = 2;
+    string isbn = 3;
+    int32 copies = 4;
+}
+
+enum SearchType {
+    TITLE = 0;
+    AUTHOR = 1;
+    ISBN = 2;
+}
